@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="styles/application.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target="#sidebar">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10">
+          <h1>Release Notes</h1>
+          <p>This page contains stories and bug fixes completed in the past two weeks on the release branch.</p>
+
+
+  <h2 id="6520">6520 - BookmarkUpdater fails with bad URI </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6520">http://mingle.nu/projects/packmanager/cards/6520</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>Adds a class comment.</li>
+  <li>Normalizes the special value that Rails 3 inserts to workaround an Internet Explorer bug.</li>
+  <li>Use #key rather than deprecated #index method.</li>
+  <li>Refactoring for ease of reading.</li>
+  </ul>
+  <h2 id="6620">6620 - Carry over "Produced by" property to new pallet </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6620">http://mingle.nu/projects/packmanager/cards/6620</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>When creating a pallet, only update the job_id if there no errors</li>
+  <li>updated variable name to be used in find/create methods</li>
+  <li>When external pallets are used on Expected Unit Moves, jobId is copied from the original pallet when the expected unit move is updated and the external pallet created</li>
+  <li>Whenever a new pallet is created in a Unit Move, the new pallet retains the job_id of the orinating pallet</li>
+  </ul>
+  <h2 id="6621">6621 - Make the hidden Project Reference 3 field user visible and editable </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6621">http://mingle.nu/projects/packmanager/cards/6621</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>added reference 3 to create/edit/show project views and job/project dockets</li>
+  </ul>
+  <h2 id="6779">6779 - Update Bill of Lading for UoMs </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6779">http://mingle.nu/projects/packmanager/cards/6779</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>Fixes tests</li>
+  <li>Updates Bill of lading and Bill of lading by stop to use cases context</li>
+  <li>Updated total_quantity_by_purchase_order_number to round up each item before it&#39;s summed up</li>
+  </ul>
+  <h2 id="6859">6859 - Add Status Dropdown to Move Plan Unit Moves </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6859">http://mingle.nu/projects/packmanager/cards/6859</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>fixes a migration to work in partitioned envs</li>
+  <li>unmerge</li>
+  </ul>
+  <h2 id="6877">6877 - Add tooltip to Default Inventory Status labels on the Inventory Status page </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6877">http://mingle.nu/projects/packmanager/cards/6877</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>Show tooltip on both view and edit mode for default statuses. Rename &#39;Auto Quarantine on Receipts&#39; to &#39;Auto Quarantine on Receipt&#39;.</li>
+  <li>Add brackets to User::SITE_ADMIN and fix skus/new from breaking.</li>
+  <li>Add tooltips for settings in set default statuses on the inventory_statuses page</li>
+  </ul>
+  <h2 id="6892">6892 - Received Inventory Custom Quarantine Status </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6892">http://mingle.nu/projects/packmanager/cards/6892</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>Refactors usage of enforced_quarantine_status to simplify dependant logic, as well as simplify tests (less stubbing needed).</li>
+  <li>Refactors ReceiptItemService and ReceiptParams to be more readable. Also adds TODOs to address instance variable that is always nil.</li>
+  <li>Overrides inventory statuses of receipt items on receive if the custom inventory status settings were changed.</li>
+  <li>Falls back to good status if there is no inventory status id in params when creating via the receipt item service.</li>
+  <li>Refactors auto-quarantine on receipt logic to reside in more appropriate place.</li>
+  <li>Fixes exception thrown when updating a receipt item via new mobile UI.</li>
+  <li>Fixes acceptance test that checks readonly status.</li>
+  <li>Re-adds removed line due to bad rebase with dev.</li>
+  <li>Commits schema changes as a result of running migration: 20140527154616_remove_auto_quarantine_settings_from_site</li>
+  <li>Fixes failing tests. A site must have an inventory status configuration for the quarantined status validation on on receipt item to execute.</li>
+  <li>Fixes failing EDI tests. Preserve original and expected behaviour by setting the inventory status to the site’s good status.</li>
+  <li>Removes deprecated helper methods (used when auto-quarantine on receipt was set on the sites page).</li>
+  <li>Change migration to support both non- partitioned and partitioned DBs.</li>
+  <li>Minor refactor of validator to use the received enforced_quarantine_status.</li>
+  <li>Removes deprecated method; refactor enforced_quarantine_status to DRY up and make more readable.</li>
+  <li>Addresses missed controller / service methods where logic needed to refactored to use the new method (enforced_quarantine_status).</li>
+  <li>Refactor controller logic for readonly behaviour for legacy mobile.</li>
+  <li>Migration to remove auto-quarantine on receive column from sites table.</li>
+  <li>Removes auto quarantine off of site.</li>
+  <li>Removes deprecated method on sku.</li>
+  <li>rewrite logic to auto-assign statuses upon creation of receipts from planned receipts</li>
+  <li>Refactors logic for mass create actions in receipts item controller; refactors validator on receipt item; fixes tests.</li>
+  <li>Refactors business logic on receipt and receipt item controllers which determines whether the inventory status is readonly, and which status to enforce if it is.</li>
+  <li>Adds method to be used in the refactoring of controller/business logic for determining when inventory status on receipt is readonly (and what status to set if it is)</li>
+  <li>Serializes the auto quarantine on receive Inventory Status Configurations for Backbone clients.</li>
+  <li>Fixes test errors. Remaining failing tests are to be rewritten when config attribute off of Site is removed.</li>
+  <li>Fixes tests for ReceiptItemGenerator and other related objects.</li>
+  <li>Updates Legacy Mobile Receipt handling of auto quarantining based on configurations in Inventory Status Configuration. Removes unused methods and corresponding tests.</li>
+  <li>Updates the error message when mass updating the status of a auto quarantined sku during receipt.</li>
+  <li>Updates the editing of receipt items depending on the sku&#39;s auto quarantine settings.</li>
+  <li>Refactors auto quarantine option constants and method names to be consistent with the ubiquitous language.</li>
+  <li>Updates the restricting of changing inventory status when receiving skus that are supposed to be selectively auto quarantined.</li>
+  <li>Updates the loading of the new Receipt form based on the Inventory Status Configurations.</li>
+  <li>Adds auto quarantine on receipt configurations to the Site factory.</li>
+  <li>Shows/hides auto_quarantine_on_receive checkbox on sku master depending on inventory status configuration.</li>
+  <li>Uses a presenter to create an array of hashes for the Inventory Status page Auto Quarantine on Receipt drop down.</li>
+  <li>Adds configuration of auto quarantine on receive to Default Statuses section in Inventory Statuses page.</li>
+  </ul>
+  <h2 id="6916">6916 - Ensure validations when turning on Edit Inventory Statuses </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6916">http://mingle.nu/projects/packmanager/cards/6916</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>Fixes tests.</li>
+  <li>Checks in latest db schema.</li>
+  <li>Adds a default value to active on Inventory Status PORO. Fixes tests.</li>
+  <li>Adds in db schema file with active field on Inventory Status model.</li>
+  <li>Rewrites error messages to make them more consistent with error message guidelines.</li>
+  <li>Adds validation to check if there exists inventory with the status being deactivated.</li>
+  <li>Fixes the sorting of the inventory status rows to occur even when cancelling out.</li>
+  <li>Updates validator so that there are no errors if updating an inventory status and not deactivating it. Prevents default status section of the provisioning page from being updated if there are validation errors in inventory status provisioning.</li>
+  <li>Refactors inventory status provisioning section to use nuErrors directive.</li>
+  <li>Cleans up validation methods in Inventory Status Configuration.</li>
+  <li>Adds validation to prevent a default status from being set using a deactivated inventory status.</li>
+  <li>Updates Receipt Item Report and Current Inventory Report to not show inactive statuses. Receipt Item Report can still show them in the results however.</li>
+  <li>Fixes a bug that occurs when creating a new inventory discrepancy and the add adjustment doesn&#39;t have a status id already.</li>
+  <li>Fixes a bug where nil default inventory status ids were being returned by Inventory Status Configuration.</li>
+  <li>Uses all caps to signify constants in default inventory status controller spec.</li>
+  <li>Makes the validation check for enabling status editting private methods.</li>
+  <li>Refactors the steps to change the default status form to &#39;show&#39; mode.</li>
+  <li>Changes default status columns in inventory status configurations to be null if they are not being used, which is determined by another corresponding setting.</li>
+  <li>Allows nil values in corresponding default status columns if no items are chosen for auto quarantine.</li>
+  <li>Adds validator for deletion of inventory status to check if it is being used as a default.</li>
+  <li>Adds validator for presence of at least one inventory status per category.</li>
+  <li>Updates the sorting of the table rows to be triggered when no rows are being editted.</li>
+  <li>adds support for showing inactive status when editing an inventory adjustment</li>
+  <li>Updates inventory status sorting to use more compact lodash stable sortBy() function.</li>
+  <li>Refactors to use lodash partial function compositions.</li>
+  <li>Scopes the default status settings section in the inventory status page to use active inventory statuses.</li>
+  <li>Scopes the inventory status dropdowns from across the app to show only active statuses.</li>
+  <li>Moves remaining instantiations of inventory status presenter to the before_filter.</li>
+  <li>Adds the ability to sort inventory statuses by active flag.</li>
+  <li>Adds active value of inventory status in site factory.</li>
+  <li>adds ability to edit and show active flag on inventory statuses</li>
+  <li>adds angular formatBoolean filter</li>
+  <li>add active field to inventory statuses&quot;</li>
+  </ul>
+  <h2 id="6921">6921 - Ensure validations when turning on Edit Inventory Statuses </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6921">http://mingle.nu/projects/packmanager/cards/6921</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>Clear errors and use store variable on ctrl instead of $scope</li>
+  <li>Add back error handling and returning errors that got lost during merges</li>
+  </ul>
+  <h2 id="6968">6968 - Manual consumption for all Subcomponents </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6968">http://mingle.nu/projects/packmanager/cards/6968</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>Makes consumptions on the Production Focus View page compatible with simple-require.js.</li>
+  <li>Handles invalid values entered for quantity in the &#39;Enter Consumption&#39; section of the &#39;Production Focus View&#39; page.&quot;</li>
+  <li>Highlights quantity field on &#39;Enter Consumption&#39; section on &#39;Production Focus View&#39; when there is a validation error.</li>
+  <li>renames ConsumptionsCtrl to JobConsumptionsCtrl</li>
+  <li>splits SubcomponentConsumptionsCtrl from ConsumptionsCtrl that uses TableCtrl</li>
+  <li>fixes SimpleJobs::JobsController</li>
+  <li>refactors TableCtrl to not use deserializeData on initialData</li>
+  <li>wires up initial consumption section with bom items</li>
+  <li>removes ddescribe</li>
+  <li>adds deep version of camelizeKeys</li>
+  <li>changes au.names to au.dependencyNames that allows strings</li>
+  <li>bootstraps new consumption ng module within simple jobs</li>
+  <li>adds generate bundles to watch; adds jquery-ui deps</li>
+  </ul>
+  <h2 id="6972">6972 - Item setting to turn on/off auto consumption </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6972">http://mingle.nu/projects/packmanager/cards/6972</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>adds validations to prevent settings incompatible with record consumption manually from being enabled</li>
+  <li>removes deprecated track_by_job? method</li>
+  <li>removes files that refer to track_by_job</li>
+  <li>allows record_consumption item setting to be set via xml api</li>
+  <li>allows record_consumption Item setting to be set on import</li>
+  <li>adds record_consumption Item setting to csv export</li>
+  <li>Fixes create item page to handle &#39;record consumption&#39; setting.</li>
+  <li>Ensures creation of new sites handles &#39;recording_of_manual_consumption&#39; correctly.</li>
+  <li>Hides track_lot_code_by setting on sku when sku is configured for recording consumption manually.</li>
+  <li>Hides &#39;Record consumption&#39; dropdown on Sku if Account is not configured appropriately.</li>
+  <li>deprecates old getters</li>
+  <li>replaces usage of track_lot_code_by with record_traceability_info_on_consumption</li>
+  <li>allows new pick lists to be created even when there are completed pick lists with quantity remaining to be picked</li>
+  <li>updates column widths</li>
+  <li>adds item setting for recording consumption</li>
+  </ul>
+  <h2 id="6982">6982 - Mapping Scenario Item UOMs when creating a New Item from the Scenario </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6982">http://mingle.nu/projects/packmanager/cards/6982</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>Adds auto quarantine receive configurations to inventory status configurations.</li>
+  </ul>
+  <h2 id="6992">6992 - Rename UOM external_identifier and conversion_uom_external_identifier </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6992">http://mingle.nu/projects/packmanager/cards/6992</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>updates the schema</li>
+  <li>fixes the run-all script</li>
+  <li>updates the uid migration scripts</li>
+  <li>renames the uom uid migration scripts</li>
+  <li>replaces occurences of external_identifier with uid</li>
+  <li>renames external_identifier/externalIdentifier to uid in js files</li>
+  <li>renames Eid to Uid</li>
+  <li>renames eid to uid</li>
+  <li>renames conversionUomEid to conversionUomUid</li>
+  <li>renames conversionUomExternalIdentifier to conversionUomUid</li>
+  <li>renames uom external_id fields to uid fields</li>
+  </ul>
+  <h2 id="6994">6994 - Can't delete existing rejects after changing Default 'Inventory rejected on Jobs' status </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6994">http://mingle.nu/projects/packmanager/cards/6994</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>Removes trial balance type assertions from rejected item with inventory test.</li>
+  <li>Restores reserved_project_id setting in the inventory adjustment attributes until we are sure that no one is using it and we can remove it.</li>
+  <li>Fixes tests for reject_items and clean up names.</li>
+  <li>Fixes tests for rejected_items and services.</li>
+  <li>Refactor methods in rejected_item.rb for inventory adjustments</li>
+  <li>Untangles inventory adjustment parameter creation for rejected items.</li>
+  </ul>
+  <h2 id="6997">6997 - Rename Efficiency Metric to Performance </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/6997">http://mingle.nu/projects/packmanager/cards/6997</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>adds a migration to change report bookmarks.</li>
+  <li>adds a migration to change report bookmarks</li>
+  <li>clenaup</li>
+  <li>more renames</li>
+  <li>fixes broken tests</li>
+  <li>changes reports to use the term performance instead of efficiency</li>
+  <li>changes production overview to use the term performance instead of efficiency</li>
+  <li>Job::Efficiency into Job::Metrics</li>
+  <li>rename calculate_efficiency to calculate_performance</li>
+  </ul>
+  <h2 id="7007">7007 - Show pallet location on Manage Pick List page</h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/7007">http://mingle.nu/projects/packmanager/cards/7007</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>Added column to assigned inventory table in pick list view</li>
+  </ul>
+  <h2 id="7013">7013 - Remove humanize_unit_of_measure_for_sentence </h2>
+  <p><strong>Mingle issue</strong>: <a href="http://mingle.nu/projects/packmanager/cards/7013">http://mingle.nu/projects/packmanager/cards/7013</a></p>
+  <p><strong>Dev owner:</strong> Alistair McKinnell</p>
+  <p><strong>Iteration (Accepted):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6837">#6837 Iteration 2014/06/06</a></p>
+  <p><strong>Iteration (Completed):</strong> <a href="http://mingle.nu/projects/packmanager/cards/6838">#6838 Iteration 2014/06/20</a></p>
+  <p><strong>Commit messages</strong>:</p>
+  <ul>
+  <li>Fixes incorrect substitution of humanize_unit_of_measure_for_sentence in pallet_move_serializer</li>
+  <li>Fixes tests</li>
+  <li>Adds custom outputs migration</li>
+  <li>Removes humanize_unit_of_measure_for_sentence from all places except assembly_procedures and quotes_generator</li>
+  </ul>
+
+        </div>
+
+        <div class="col-sm-4">
+          <div id="sidebar" data-spy="affix" data-offset-top="100" data-offset-bottom="200">
+            <ul class="nav">
+              <li>
+                <a href="#6520">#6520</a>
+              </li>
+              <li>
+                <a href="#6620">#6620</a>
+              </li>
+              <li>
+                <a href="#6621">#6621</a>
+              </li>
+              <li>
+                <a href="#6779">#6779</a>
+              </li>
+              <li>
+                <a href="#6859">#6859</a>
+              </li>
+              <li>
+                <a href="#6877">#6877</a>
+              </li>
+              <li>
+                <a href="#6892">#6892</a>
+              </li>
+              <li>
+                <a href="#6916">#6916</a>
+              </li>
+              <li>
+                <a href="#6921">#6921</a>
+              </li>
+              <li>
+                <a href="#6968">#6968</a>
+              </li>
+              <li>
+                <a href="#6972">#6972</a>
+              </li>
+              <li>
+                <a href="#6982">#6982</a>
+              </li>
+              <li>
+                <a href="#6992">#6992</a>
+              </li>
+              <li>
+                <a href="#6994">#6994</a>
+              </li>
+              <li>
+                <a href="#6997">#6997</a>
+              </li>
+              <li>
+                <a href="#7007">#7007</a>
+              </li>
+              <li>
+                <a href="#7013">#7013</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

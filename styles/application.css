@@ -1,0 +1,29 @@
+body {
+  padding: 10px;
+}
+
+h1 {
+  border-bottom: 1px solid #eee;
+}
+
+#sidebar {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 225px;
+  font-size: 11px;
+}
+
+#sidebar .nav > li > a:hover,
+#sidebar .nav > li > a:focus  {
+  background-color: transparent;
+}
+
+#sidebar .nav > li > a {
+  padding: 5px 2px;
+
+}
+#sidebar .active {
+  border-left: 1px solid #2a6496;
+  font-weight: bold;
+}
